@@ -11,10 +11,12 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import org.hibernate.annotations.CreationTimestamp;
 
-import lombok.Getter;
 import lombok.Setter;
+import lombok.Getter;
 import lombok.ToString;
 
 @Table(name = "battery_log")
@@ -35,6 +37,7 @@ public class BatteryLog {
     @Column(name = "created_at")
     private Date createdAt;
 
+    @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "drone_id")
     private Drone drone;
