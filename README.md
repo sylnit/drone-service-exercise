@@ -1,4 +1,4 @@
-# Samuel Iheadindu Coding Assignment
+# Drone Service Coding Assignment
 
 This application is a RESTful api service for a transportation company that uses drones to deliver drugs. This is expected to leapfrog the traditional transportation infrastructure.
 The transport company has 10 drones under it's fleet and requires a service to provide the following:
