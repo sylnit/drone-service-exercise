@@ -69,7 +69,8 @@ mvn test
 
 ## Git Commit History
 
-- aaffa5f (HEAD -> master) Add dispatch controller test
+- 04b71f1 (HEAD -> master) Add README.md file
+- aaffa5f Add dispatch controller test
 - 2f38d47 Add smoke test
 - e3b1649 Complete dispatch controller
 - f862edf Add method findByDrone()
